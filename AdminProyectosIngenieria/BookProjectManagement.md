@@ -19,7 +19,7 @@ Un **Programa** es el conjunto de muchos projectos que buscan resolver un objeti
 3. Ejecucion
 4. Cierre (Entrega, redeployment de recursos, revision)
 
-[IMAGEN]
+![](images/participacionTimeLine.png)
 
 Hoy en dia hay mucha demanda de Project Management por diversas razones que han cambiado a forma en que se debe hacer tracking de proyectos **i.e** Reduccion de ciclos de vida de productos, nuevo conocimiento, busqueda de sostenibilidad, incremento en customer focus, etc.
 
@@ -56,7 +56,7 @@ Un Project Manager debe pensar estrategicamente para tomar decisiones en base a 
 3. Analizar y formular estrategias para cumplir los objetivos
 4. Implementar las estrategias a traves de proyectos
 
-[IMAGEN]
+![](images/strategicSteps.png)
 
 La mision no es permanente pero no debe sufrir cambios muy seguido. No debe tener ambiguedad porque si se puede interpretar de varias formas se pierde alineamiento entre proyectos.
 
