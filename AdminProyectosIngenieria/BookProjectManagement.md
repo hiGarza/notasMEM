@@ -1,4 +1,4 @@
-# Chapter 1
+# Chapter 1: Modern Project Management
 
 Un **proyecto** es una tarea temporal que se ejecuta para obtener un producto unico, un servicio o un resultado. Su mayor proposito es satisfacer las necesidades de un cliente.
 
@@ -43,7 +43,7 @@ La parte **sociocultural**: Todo el desmadre de jurisdicciones, cultura, burocra
 
 Hay que saberle a las dos...
 
-# Chapter 2
+# Chapter 2: Organization Strategy
 
 La **estrategia** se define a traves de proyectos. Todos los proyectos deben tener un link claro a la estrategia de la organizacion.
 
@@ -66,10 +66,12 @@ Las estrategias responden a la pregunta de _Que se debe hacer para cumplir los o
 
 La implementacion de una estrategia responde a la pregunta de _Como se van a ejecutar las estrategias?_ Una vez seleccionada una estrategia se divide en diversos proyectos conectados que apuntan al cumplimiento de la misma.
 
-# Chapter 3
 To Do
 
-# Chapter 4
+# Chapter 3:
+To Do
+
+# Chapter 4: Defining the Project
 Cuando un PM maneja un solo proyecto es sencillo armar los budgets y controlar la informacion del mismo. Cuando hay mas de uno se pierde el detalle de los mismos. Para solucionar esto hay 5 pasos tipo cookie cutter para tener la informacion de todos los proyectos lista para stakeholders.
 
 ## 1. Definir el scope
@@ -116,3 +118,120 @@ Para cubrir estas pregunas se pueden seguir los siguientes pasos basicos:
 3. Identificar Fuentes de Informacion
 4. Definir formas de esparcier la inofrmacion.
 5. Determinar quien y cuando se va a liberar la informacion.
+
+# Chapter 5: Estimating Project Time and Costs
+La estimacion es la linea guia para todo el proyecto. Cagarla en la estimacion te deja un camino complicado para completar el proyecto pero para hacer una buena estimacion se necesita invertir tiempo y dinero. Como a veces no es factible tener estos datos hay varios metodos que se pueden ejecutar para cubrir la necesidad.
+
+## Factores que afectan la calidad de estimados
+
+* **Planning Horizon**: Eventos en corto son mas faciles de estimar con mejor accuracy. Mientras mas lejano el trabajo mas complejo se vuelve estimarlo.
+* **Project Duration**: Proyectos de muy larga duracion tienden a afectar los estimados.
+* **People**: El factor de gente siempre jode las estimaciones. Gente con experiencia da diferntes datos a gente sin ella. Estimaciones basadas en dias no toman en cuenta que la productividad total esta cerca de 5 a 6 horas y no de otro numero esperado.
+* **Project Structure and Organization**: los integrantes del equipo afectan la ejecucion y pueden no seguir las estimaciones. Equipos grandes necesitan mas comunicacion asi que se tardan mas.
+* **Padding Estimates**: A veces por tantearle el agua a los camotes le pones un extra a los estimados para no fallarle. Esto algunos PMs los toman en cuenta asi que hasta se dan el lujo de reducir siempre ese padding de las tareas. Entre este juego se genera poca accuracy en estimados.
+* **Organization Culture**: La organizacion del proyecto puede hacer que todo lo anterior tenga variaciones.
+* **Otros**: Hay mil ocho mil cosas mas.
+
+## 7 pasos para buenos estimados
+Como estimar esta cabron estas 7 cosas se pueden hacer para no cagarla.
+
+1. **Responsability**: Jalate a la raza que va a hacer la tarea, de esta forma es gente que sabe de lo que esta hablando. Va a demostrar mas interes si los metes a la jugada y puedes recibir accountability porque ellos mismos ponen el estimado, haciendose responsables de ejecutarlo en tiempo.
+2. **Several people to estimate**: Hay que jalar a caria raza para tener aproximados reales basados en diferentes niveles de expertis. Platicando entre varios ademas se llega a un consenso y se eliminan extremos.
+3. **Normal Conditions**: Las estimaciones deben hacerse basadas en una ejecucion de la tarea en condiciones normales.
+4. **Time Units**: Hay que usar la unidad correcta de tiempo segun el proyecto. Se debe definir al principio y todas las tareas deben usar la misma unidad.
+5. **Independence**: Todas las tareas deben estimarse indepentiendemente de las otras. No es bueno agrupar tareas y poner un estimado al total porque luego hay ambiguedad al repartir ese estimado.
+6. **Contingencies**: EL estimado no debe incluir padding de contingencias. Mas bien el proyecto como un todo debe tener parte del budget asignado a estos casos.
+7. **Risk assement**: Un analisis de riesgo durante la estimacion ayuda a evitar sorpresas. Desde solo dividir camino optimista y pesimista permite llegar a un estimado que cubra amos casos.
+
+## Top-Down vs. Bottom-Up
+Para estimar hay dos formas. **Top-Down** se refiere a uan estimacion de caracter estrategica donde se define un estimado basado en experiencia e informacion para determinar el total de tiempo y costo. Esto se hacen sin tener NPI de las tareas a ejecutra. **Bottom-Up** en cambio se trata de analizar las tareas mas basicas y llevar los totales hacia arriba. Ambas tienen sus pros y contras. Lo mejor es hacer un Top-Down, luego hacer el WBS/OBS, hacer el bottom-up y finalmente llegar a un acuerdo entre los estimados que no hacen match. Lo ideal es hacer esto **antes** de cerrar negociaciones y asi.
+
+### Metodos Top-Down
+
+* Consensus: Usar el expertis de los rifludos para llegar a un acuerdo del tiempo y precio esperado de un proyecto.
+* Ratio: Usas calculos basados en ciertas reglas. Como estimar el costo y tiempo de una casa basado en metros cuadrados
+* Apportion: Extension de ratio y se usa cuando un proyecto sigue otros pasados en requerimientos y costos
+* Function Points: Se parametrizan puntos de los requerimientos y se calcula el total con base en una formila. Tipo software y asi, sabes como?
+* Learning Curves: En proyectos que se ejecuta casi la misma accion varias veces se puede reducir la estimacion despues de la experiencia de ejecutar la tarea en fases iniciales.
+
+### Metodos Bottom-Up
+* Templates: Se usan cuando se han ejecutado proeyctos similares antes. Tipo templates de Licho y guayo
+* Parametrizacion en tareas especificas: Se calcula el total basado en la ejecucion de una sola tarea.
+* Range: Juntas a varia raza a sacar los estimados mas bajos, medios y altos junto con un nivel de riesgo que crean que se puede cumplir o no. Con este detalle el project managaer ya sabe que pedo para preparar la mitigacion de riesgos y asi.
+
+### El hibrido aca
+Se puede utilizar un hibrido en proyectos de turbo incertidumbre.
+* Phase: Primero se tantea con un top-down y luego se refina con bottom-up en cada una de las fases que se ejecutan del proyecto. Esta cabron porque parece cheque en blanco pues en cada fase los estimados de tiempo y costo pueden variar bien cabron. Pero el cliente tambien puede tomar decisiones sobre cada fase que afectan el comportamiento de las nuevas estimaciones.
+
+-
+El **Nivel de detalle** debe ser un balance para solo expresar las cosas necesarias.
+
+## Tipos de costo
+**Costo directo** son las cosas que literalmente se tienen que pagar. Tipo horas programadas o uso de equipo rentado
+
+**Costos de Overhead del Proyecto** Son costos como el tiempo del PM y sel SA que cobramos en Ooshala. No son cosas directas pero influyen en la ejecucion del proyecto. Normalmente son ratios.
+
+**Costos de Overhead Generales y administrativos** Son de que igual sin ejecutarse en el proyecto pero presentes y son pedos de la organizacion que ejecuta el proyecto
+
+-
+Al final despues de tanto pedo igual los PMs a veces le meten un multiplicador a los esfuerzos. Esto es porque no necesariamente se cumplen las asumptions con las que se hacen las estimaciones. Como tareas aisladas o como que las cosas van a salir bien a la primera.
+
+Pero la mejor forma de mejorar los estimados es a traves de la compilacion de experiencias pasadas para tomarse en cuenta al momento de hacer estimaciones para proyectos similares en el futuro.
+
+# Chapter 6: 
+
+# Chapter 7: 
+
+# Chapter 8: Scheduling Resources and Costs
+En un mundo bonito hay casos donde los recursos son suficientes. Pero se debe tomar en cuenta picos y valles en la utilizacion. Se aplica **resource smoothing** cuando se aprovecha el slack de tareas para distribuir la carga de trabajo y no tener altas demandas en momentos super random.
+
+Las 3 metas de resource smoothing:
+
+* Reducir picos de demanda de recursos
+* Reducir el numero de recursos totales en el proyecto
+* Minimizar fluctuaciones en el uso de recursos.
+
+Smoothing esta chido porque puedes ahorrar costos, no solo directos. Tambien costos de reallocaiton de recursos debido a traslado y ramp up. El pedo es que te gastas el slack y algunas tareas terminan siendo parte de la ruta critica.
+
+Cuando se acomoda el trabajo en el diagrama de tareas se considera un escenario magico donde siempre hay recursos para cubrir esas tareas. Sin embargo esto normalmente no pasa. En estos casos se debe romper el orden logico de dependencias de tareas y se debe implementar una red considerando los recursos disponibles. **i.e**: 3 tareas se pueden ejecutar en paralelo pero solo hay un wey, entonces terminan siendo tareas secuenciales.
+
+Entre los varios tipos de constraints a recursos estan: **Personas, materiales, herramientas**
+
+La mayoria de los metodos de scheduling de hoy en dia tiene como requerimiento definir el tipo de scheduling del proyecto: **time-constrained** o **resource-constrained** Cada uno ofrece flexibilidad en lo que el otro no.
+
+Time-constrained proyects usan resource smoothing
+
+Resource-constrained proyects: Acomodar resources en un schedule es un problema combinatorio que hasta se vuelve mucho pedo para programacion lineal. Por eso esta cool usar **heuristicas** para la toma de decisiones sobre las tareas. Las heuristicas y una combinacion de las mismas puede determinar que tareas reciben recursos cuando estos no son suficientes y cuales tareas se postergan para despues.
+
+El metodo paralelo se avienta varias vueltas tomando como prioridad las tareas con las siguientes condiciones:
+
+* Minimum slack
+* Smallest duration
+* Lowest activity ID
+
+Hacer Resource-constrained scheduling es la reduccion de slacks para que no se afecte la entrega del proyecto. El concepto de critical path por orden logico pierde sentido y elnuevo cirital path se define por los recursos disponibles.
+
+**Splitting** se refiere a partir actividades y mandar un recurso a trabajar en otra cosa y luego volver a terminar la tarea inicial. Esto puede servir para manejar recursos eficientemente pero deben tener cuidado porque hay un costo real en el ramp up de cambiar de actividades.
+
+Hay que estar la tiro en la asignacion de recursos. Hace sentido poner a los mas expertos en las cosas mas complejas pero se pueden fastidiar.
+
+
+# Chapter 9: Reducing Project Duration
+Hay muchas situaciones en las que es necesario acortar un proyecto. Incentivos economicos, desastres no previstos, time to market, etc.
+
+Al hecho de reducir la duracion de una tarea se le llama **crashing** y hay varias formas de hacerlo.
+
+## Opctiones cuando los recursos no estan limitados
+
+* Agregar recursos a la misma tarea. Pero no necesariamente mas gente logra cosas mas rapido.
+* Oursourcear el proyecto con expertos en el tema y asi.
+* Horas extra es la forma mas facil de reducir el tiempo. Un incremento de 40 horas semanales a 50 logra un beneficio de 20%. Desventajas obvias es el desgaste de la raza.
+* Establecer un core team que se dedique al 100 a este pedo y asi no pierden tiempo con otros temas de la organizacion.
+* Do it Twice: Fast and correctly. Primero lo haces culero luego regreas a corregir cuando se calmaron las aguas.
+
+## Opciones cuando los recursos estan limitados.
+
+* Fast tracking: a veces es posible reajustar la logica del proyecto para que actividades criticas se ejecuten en paralelo y no en secuencia. como cambiar finish to start a start to startl.
+* Critial chain: 
+* Reducir el scope: En situaciones donde ya de plano no se puede reducir se tiene que poner la expectativa de que el scope no es le mismo y se va a quitar funcionalidad.
+* Reducir calidad: Se baja la calidad para acabar mas en putiza.
