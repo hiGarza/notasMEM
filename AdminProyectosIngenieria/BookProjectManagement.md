@@ -235,3 +235,10 @@ Al hecho de reducir la duracion de una tarea se le llama **crashing** y hay vari
 * Critial chain: 
 * Reducir el scope: En situaciones donde ya de plano no se puede reducir se tiene que poner la expectativa de que el scope no es le mismo y se va a quitar funcionalidad.
 * Reducir calidad: Se baja la calidad para acabar mas en putiza.
+
+# Chapter 10: Leadership: Being an Effective Project Manager
+Segun Kotter la diferencia entre Management y Leadership es que el primero se enfoca en conrolar la complejidad y la segunda se enfoca en controlar el cambio.
+
+No siempre se necesita liderazgo super aca para sacar los proyectos. Un proyecto con super buena planeacion y sin sorpresas no necesita lideres. 
+
+# Chapter 11: Managing Project Teams
