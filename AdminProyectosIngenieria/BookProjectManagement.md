@@ -242,3 +242,38 @@ Segun Kotter la diferencia entre Management y Leadership es que el primero se en
 No siempre se necesita liderazgo super aca para sacar los proyectos. Un proyecto con super buena planeacion y sin sorpresas no necesita lideres. 
 
 # Chapter 11: Managing Project Teams
+
+# Chapter 12:
+
+# Chapter 13:
+
+El control del proyecto se ejecuta cumpliento los siguientes pasos: Que informacion se va a analizar? Quien, cuando y como se va a juntar dicha informacion? Analizar la informacion. Reportar el analisis
+
+**Que informacion se va a juntar?**
+La informacion recolectada debe responder a diversas preguntas como. Cual es el estatus actual del proyecto en terminos de tiempo y costo? Cuanto ha costado lleagr al punto actual? Que se ha obtenido a cambio de lo sgastado? Quien o que han sido los factores para los problemas del camino? etc
+
+**Quien, cuando y como? / Analisis**
+Meh
+
+**Reportes**
+Se debe determinar quien va a obtener los reportes y el nivel de dealle depende del stakeholder que lo va a recibir. Un reporte normalmente cubre:
+
+* El progreso desde el reporte anterior
+* EL estatus actual de: alcance, costo y tiempo
+* Tendencias
+* Problemas desde el reporte anterior: Acciones corretivas y nuevas varianzas identificadas
+* Plan para problemas del periodo actual
+
+# El proceso de control de proyecto
+El control es el proceso de comparar el performance actual contra otro momento y tiene los siguinetes pasos:
+
+1. Setting a baseline: EL baseline sale del WBS y todo el gantt del principio
+2. Measuring progress and performance: Hay de varias formas. Ver la ruta critica y checar como vamos o se puede checar el budget del proyecto. Cuando se hace un analisis de budget se debe encontrar el Earned Value (EV) que es el costo del trabajo ejecutado para poder tener una metrica real.
+3. Comparing plan against actual: Se pone una fecha de corte para hacer el analisis
+4. Taking actions: Segun la desviacion calculada en e paso 3 se deben tomar acciones correctivas
+
+## Monitoreo basado en tiempo
+Se pueden usar tracking gantts aca mas fresones o una grafica de control, que solo especifica los epriodos de tiempo a favor o en contra del periodo actual. Sirve chido para mostar tendendicas.
+
+## Earned Value Cost/Schedule System
+* **EV** Earned value for a task is simply the percent complete times its original budget.Stated differently, EV is the percent of the original budget that has been earned by actual work completed. [The older acronym for this value was BCWP—budgeted cost of the work performed.]* **PV** The planned time-phased baseline of the value of the work scheduled. An approved cost estimate of the resources scheduled in a time-phased cumulative baseline [BCWS—budgeted cost of the work scheduled].* **AC** Actual cost of the work completed. The sum of the costs incurred in accomplishing work. [ACWP—actual cost of the work performed].* **CV** Cost variance is the difference between the earned value and the actual costs for the work completed to date where CV 5 EV 2 AC.* **SV** Schedule variance is the difference between the earned value and the baseline line to date where SV 5 EV 2 PV.* **BAC** Budgeted cost at completion. The total budgeted cost of the baseline or project cost accounts.* **EAC** Estimated cost at completion.* **ETC** Estimated cost to complete remaining work.* **VAC** Cost variance at completion. VAC indicates expected actual over- or underrun costat completion.
